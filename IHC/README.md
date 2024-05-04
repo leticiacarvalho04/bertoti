@@ -13,8 +13,10 @@
 <p>Como dito anteriormente a palavra "fechada" pode significar mais de uma coisa, podendo deixar assim, o usuário confuso.</p>
 
 ## Página Home
-<img src='./sigaHome.jpg' />
-<p align="center"><i>Imagem: Página Home Siga</i></p>
+<div align="center">
+    <img src='./sigaHome.jpg' />
+    <p><i>Imagem: Página Home Siga</i></p>
+</div>
 
 ### Heurística 2 - Correspondência entre o sistema e o mundo real
 <p>Logo no início da página no lado esquerdo abaixo da foto em "Rendimento no curso" não está especificado o que exatamente são aquelas abreviações (PP, PR, etc.). Portanto, para aqueles não estão acostumados a este ambiente acadêmico ou não possuem o conhecimento do que são estas coisas podem ficar confusos.</p>
@@ -27,8 +29,10 @@
 <p>Não há em nenhum lugar uma documentação que ajude a entender o sistema, o que pode causar desentendimentos como aquele citado anteriormente na imagem de Matrícula. </p>
 
 # IME Unicamp
-<img src="./IMEunicamp.jpg" />
-<p align="center"><i>Imagem: IME Unicamp - Polinômio Característico</i></p>
+<div align="center">
+    <img src="./IMEunicamp.jpg" />
+    <p><i>Imagem: IME Unicamp - Polinômio Característico</i></p>
+</div>
 
 ### Heurística 7 - Flexibilidade e Eficiência de Uso
 <p>Não há nenhuma personalização no site (nem mesmo uma coisa básica como um menu hambúrguer) embora esteja tudo de fácil acesso.</p>
@@ -37,12 +41,19 @@
 <p>A interface contém muitas informações e seu design está muito poluído dificultando a visibilidade do usuário.</p>
 
 # Quero Bolsa
-<img src="./queroBolsa.jpg" />
-<p align="center"><i>Imagem: Quero Bolsa - Equação do 3° grau</i></p>
+<div align="center">
+    <img src="./queroBolsa.jpg" />
+    <p><i>Imagem: Quero Bolsa - Equação do 3° grau</i></p>
+</div>
+
+### Heurística 4 - Consistência e Padrões
+<p>Aqui não existe responsabilidade, ferindo assim a consistência e o padrão.</p>
 
 # UNIMED Cliente SJC
-<img src="./unimedHome.jpg" />
-<p align="center"><i>Imagem: Home - App: UNIMED</i></p>
+<div align="center">
+    <img src="./unimedHome.jpg" />
+    <p><i>Imagem: Home - App: UNIMED</i></p>
+</div>
 
 ### Heurística 1 - Visibilidade do status do sistema
 <p>Aqui o usuário não consegue tere uma visualização clara do status do sistema nem dos feedbacks do sistema.</p>
@@ -52,3 +63,11 @@
 
 ### Heurística 7 - Flexibilidade e Eficiência de Uso ?
 <p>O aplicativo não é nada flexível embora seja eficiente. Ele não dá muitos caminhos de realizar uma determinada ação frequente.</p>
+
+<div align="center">
+    <img src="./buscaUnimed.jpg" />
+    <p><i>Imagem: Busca dentro do app da Unimed</i></p>
+</div>
+
+### Heurística 4 - Consistência e Padrões
+<p>Aqui há um erro de consistência e padrão pois mesmo que eu pesquise algo nessa busca e encontre, ao clicar no item de minha escolha nada acontece, ele apenas fica listando as opções. Para realmente ir para onde quero (ex: se eu busquei Cliníca Médica, desejo ir para a listagem de clínicas médicas) é necessário clicar no icon de lupa da busca.</p>
