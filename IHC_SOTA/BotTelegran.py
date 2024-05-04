@@ -7,7 +7,7 @@ import requests
 import nltk
 
 # Substitua "SEU_TOKEN_AQUI" pelo token do seu bot
-bot = telebot.TeleBot('6047718024:AAGKNKb2xF0r-Glmvu1wPlPFwVKO9H6F_c4')
+bot = telebot.TeleBot('SEU_TOKEN_AQUI')
 
 classifier = pipeline("zero-shot-classification")  # Example model
 
