@@ -1,7 +1,7 @@
 import telebot
 import wikipediaapi
 
-API_TOKEN = 'SEU TOKEN AQUI'
+API_TOKEN = '6047718024:AAGKNKb2xF0r-Glmvu1wPlPFwVKO9H6F_c4' #SEU TOKEN
 bot = telebot.TeleBot(API_TOKEN)
 
 wiki_wiki = wikipediaapi.Wikipedia(
