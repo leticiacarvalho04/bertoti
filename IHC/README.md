@@ -28,11 +28,25 @@
 ### Heurística 10 - Ajuda e Documentação
 <p>Não há em nenhum lugar uma documentação que ajude a entender o sistema, o que pode causar desentendimentos como aquele citado anteriormente na imagem de Matrícula. </p>
 
+## Página Planos de Ensino 
+<div align="center">
+    <img src="./sigaIHC.png" />
+    <p><i>Imagem: Página de planos de ensino do siga da disciplina Interação Humano x Computador</i></p>
+</div>
+
+### Heurística 2 - Correspondência entre o sistema e o mundo real
+<p>Aqui o design do site não fala a linguagem do usuário, quebrando assim a 2° heurística.</p> 
+
 # IME Unicamp
 <div align="center">
     <img src="./IMEunicamp.jpg" />
     <p><i>Imagem: IME Unicamp - Polinômio Característico</i></p>
+    <img src="./IME.jpg" />
+    <p><i>Imagem: IME Unicamp - Fatoração LU</i></p>
 </div>
+
+### Heurística 4 - Consistência e padrões
+<p>Não há qualquer consistência ou padrão no site da IME Unicamp, pois cada página de um tema matemática possui uma cor diferente.</p>
 
 ### Heurística 7 - Flexibilidade e Eficiência de Uso
 <p>Não há nenhuma personalização no site (nem mesmo uma coisa básica como um menu hambúrguer) embora esteja tudo de fácil acesso.</p>
@@ -71,3 +85,21 @@
 
 ### Heurística 4 - Consistência e Padrões
 <p>Aqui há um erro de consistência e padrão pois mesmo que eu pesquise algo nessa busca e encontre, ao clicar no item de minha escolha nada acontece, ele apenas fica listando as opções. Para realmente ir para onde quero (ex: se eu busquei Cliníca Médica, desejo ir para a listagem de clínicas médicas) é necessário clicar no icon de lupa da busca.</p>
+
+# IF - Sistema Linear
+<div align="center">
+    <img src="./IF.jpg" />
+    <p><i>Imagem: Página calculadora de sistemas lineares do IF</i></p>
+</div>
+
+### Heurística 8 - Design estético e minimalista
+<p>O site não possui qualquer responsividade, tornando dificil a visualização das informações quando acessado pelo celular.</p>
+
+# Embraer
+<div align="center">
+    <img src="./embraer.jpg" />
+    <p><i>Imagem: Formulário da embraer para vaga de emprego acessada pelo computador</i></p>
+</div>
+
+### Heurística 8 - Design estético e minimalista
+<p>O site não possui qualquer responsividade, tornando difícil a visualização do que está ocorrendo.</p>

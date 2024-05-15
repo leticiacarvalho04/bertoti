@@ -9,6 +9,8 @@ bot = telebot.TeleBot('SEU_TOKEN_AQUI')
 
 classifier = pipeline("zero-shot-classification")
 
+popular_books = []
+
 def get_popular_books():
     url = "https://www.googleapis.com/books/v1/volumes?q=subject:fiction&orderBy=newest&maxResults=5"
     response = requests.get(url)
@@ -42,6 +44,8 @@ def get_book_recommendations(title, author):
 
 @bot.message_handler(commands=['start'])
 def start(message):
+    global popular_books
+    popular_books = get_popular_books()
     choices = ["Escolher bebidas", "Pedir um livro", "Pedir uma recomendação de livro"]
     
     keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
@@ -53,6 +57,7 @@ def start(message):
     bot.register_next_step_handler(message, handle_user_input)
 
 def handle_user_input(message):
+    global popular_books
     user_input = message.text
     
     intents = ["Escolher bebidas", "Pedir um livro", "Pedir uma recomendação de livro"]
@@ -81,8 +86,8 @@ def handle_user_input(message):
         bot.send_message(message.chat.id, 'Desculpe, não entendi sua solicitação.')
 
 def handle_book_choice(message):
+    global popular_books
     book_index = int(message.text) - 1
-    popular_books = get_popular_books()
     if 0 <= book_index < len(popular_books):
         chosen_book = popular_books[book_index]
         bot.send_message(message.chat.id, f"Você escolheu '{chosen_book['title']}' de {chosen_book['authors']}.")
