@@ -75,7 +75,7 @@
 ### Heurística 3 - Controle e Liberdade do Usuário
 <p>Não está em evidência a "saída de emergência". Para chegar até ela é necessário explorar um pouco mais, o que pode dificultar no caso de pessoas simples e de pouco entendimento tecnológico.</p>
 
-### Heurística 7 - Flexibilidade e Eficiência de Uso ?
+### Heurística 7 - Flexibilidade e Eficiência de Uso 
 <p>O aplicativo não é nada flexível embora seja eficiente. Ele não dá muitos caminhos de realizar uma determinada ação frequente.</p>
 
 <div align="center">
