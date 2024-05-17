@@ -5,7 +5,7 @@ import requests
 from transformers import pipeline
 
 # Substitua "SEU_TOKEN_AQUI" pelo token do seu bot
-bot = telebot.TeleBot('SEU_TOKEN_AQUI')
+bot = telebot.TeleBot('6047718024:AAGKNKb2xF0r-Glmvu1wPlPFwVKO9H6F_c4')
 
 classifier = pipeline("zero-shot-classification")
 

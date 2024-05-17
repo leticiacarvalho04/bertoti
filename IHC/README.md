@@ -101,5 +101,36 @@
     <p><i>Imagem: Formulário da embraer para vaga de emprego acessada pelo computador</i></p>
 </div>
 
+### Heurística 1 - Visibilidade do sistema
+<p>Aqui, devido o erro da heurística 8 (design estético e minimalista) não fica muito claro o que está acontecendo pois não é possível visualizar isso com clareza (ex: o que falta preencher no formulário, o que é obrigatório, etc).</p>
+
 ### Heurística 8 - Design estético e minimalista
 <p>O site não possui qualquer responsividade, tornando difícil a visualização do que está ocorrendo.</p>
+
+
+## Alguns outros Sites com erros de Heurística 8
+
+<div align="center">
+    <img src="./fatecCalendario.jpg" />
+    <p><i>Imagem: Site FATEC SJC acessado pelo celular para visualização do calendário</i></p>
+</div>
+
+<div align="center">
+    <img src="./image.png" />
+    <p><i>Imagem: Site do IBGE (home)</i></p>
+</div>
+
+<div align="center">
+    <img src="./prefPelotas.jpg" />
+    <p><i>Imagem: Site da Prefeitura de Pelotas acessado pelo celular</i></p>
+</div>
+
+<div align="center">
+    <img src="./prefPelotas2.jpg" />
+    <p><i>Imagem: Site da Prefeitura de Pelotas acessado pelo celular</i></p>
+</div>
+
+<div align="center">
+    <img src="./prefPelotas3.jpg" />
+    <p><i>Imagem: Site da Prefeitura de Pelotas acessado pelo celular</i></p>
+</div>
